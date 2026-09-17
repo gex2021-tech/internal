@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\ret_spoof.h.obj",
+            "outputs": [
+                "C:\\Users\\kuzey\\OneDrive\\Desktop\\dvn (2)\\dvn\\project\\x64\\Release\\vc145.pdb",
+                "x64\\Release\\",
+                "C:\\Users\\kuzey\\OneDrive\\Desktop\\dvn (2)\\dvn\\project\\x64\\Release\\ret_spoof.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "ret_spoof.h",
+                    "source-path": "c:\\users\\kuzey\\onedrive\\desktop\\dvn (2)\\dvn\\project\\ret_spoof.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

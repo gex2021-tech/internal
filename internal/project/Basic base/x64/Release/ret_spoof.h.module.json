@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Basic base\\x64\\Release\\ret_spoof.h.obj",
+            "outputs": [
+                "C:\\Users\\HP\\Pictures\\Camera Roll\\dvn\\project\\Basic base\\x64\\Release\\vc143.pdb",
+                "Basic base\\x64\\Release\\",
+                "C:\\Users\\HP\\Pictures\\Camera Roll\\dvn\\project\\Basic base\\x64\\Release\\ret_spoof.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "ret_spoof.h",
+                    "source-path": "c:\\users\\hp\\pictures\\camera roll\\dvn\\project\\ret_spoof.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

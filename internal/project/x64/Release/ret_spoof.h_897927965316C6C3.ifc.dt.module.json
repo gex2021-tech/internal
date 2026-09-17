@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\ret_spoof.obj",
+            "outputs": [
+                "x64\\Release\\ret_spoof.h_897927965316C6C3.ifc.dt.module.json",
+                "x64\\Release\\ret_spoof.h_897927965316C6C3.ifc.dt.d.json",
+                "x64\\Release\\ret_spoof.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\v aloo\\Desktop\\asasasd\\dvn\\project\\ret_spoof.h",
+                    "source-path": "c:\\users\\v aloo\\desktop\\asasasd\\dvn\\project\\ret_spoof.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

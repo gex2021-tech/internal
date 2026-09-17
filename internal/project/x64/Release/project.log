@@ -1,0 +1,38 @@
+﻿  Modül bağımlılıkları için kaynaklar taranıyor...
+  hooks.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('hooks.cpp' kaynak dosyası derleniyor)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18):
+      şablon örneği oluşturma bağlamı (önce en eski olan)
+          C:\Users\kuzey\OneDrive\Desktop\dvn (2)\dvn\project\hooks.cpp(13233,29):
+          derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\kuzey\OneDrive\Desktop\dvn (2)\dvn\project\hooks.cpp(13233,29):
+              'hooks::get_finisher_from_skin' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(862,17):
+          derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1018,18):
+          derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+     x64\Release\JJGBFRV368BY238RB8R3HFSNS.lib kitaplığı ve x64\Release\JJGBFRV368BY238RB8R3HFSNS.exp nesnesi oluşturuluyor
+  LINK : /LTCG belirtildi ancak kod üretme gerekli değil; bağlayıcı performansını artırmak için /LTCG'yi bağlantı komut satırından kaldırın
+  project.vcxproj -> C:\Users\kuzey\OneDrive\Desktop\dvn (2)\dvn\project\x64\Release\JJGBFRV368BY238RB8R3HFSNS.dll

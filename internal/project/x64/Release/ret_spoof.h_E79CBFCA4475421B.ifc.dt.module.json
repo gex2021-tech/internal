@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\ret_spoof.obj",
+            "outputs": [
+                "x64\\Release\\ret_spoof.h_E79CBFCA4475421B.ifc.dt.module.json",
+                "x64\\Release\\ret_spoof.h_E79CBFCA4475421B.ifc.dt.d.json",
+                "x64\\Release\\ret_spoof.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\kuzey\\OneDrive\\Desktop\\dvn (2)\\dvn\\project\\ret_spoof.h",
+                    "source-path": "c:\\users\\kuzey\\onedrive\\desktop\\dvn (2)\\dvn\\project\\ret_spoof.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
